@@ -1,0 +1,28 @@
+# Gradle build state and outputs
+.gradle/
+build/
+out/
+
+# Compiled Java artifacts
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Visual Studio Code
+.vscode/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Logs and JVM crash reports
+*.log
+hs_err_pid*
+replay_pid*
