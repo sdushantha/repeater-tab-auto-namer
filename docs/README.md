@@ -1,4 +1,5 @@
-# Repeater Tab Auto-Namer
+# Repeater Tab Auto-Namer [![Built with ChatGPT](https://vibecoded.fyi/badges/flat/llms/chatgpt.svg)](https://vibecoded.fyi/)
+
 Burp Suite extension that auto-renames Repeater tabs to `{METHOD} {PATH}`
 <p align="center">
     <img src="images/before-after.png">
