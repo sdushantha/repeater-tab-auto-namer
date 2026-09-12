@@ -22,5 +22,8 @@ public final class TabRenameExtension implements BurpExtension {
                 new NamedRepeaterHotKeyHandler(api.repeater(), api.logging(), tabActivator));
         api.logging().logToOutput(
                 "Repeater Tab Auto-Namer loaded. Ctrl+R sends requests to named Repeater tabs.");
+        api.logging().logToOutput(
+                "\nRemember to go to Settings > User interface > Hotkeys and remove the existing Ctrl+R assignment."
+                );
     }
 }
