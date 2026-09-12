@@ -3,6 +3,9 @@
 build/
 out/
 
+gradlew
+gradlew.bat
+
 # Compiled Java artifacts
 *.class
 

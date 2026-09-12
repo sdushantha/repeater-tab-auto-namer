@@ -1,31 +1,19 @@
 # Repeater Tab Auto-Namer
-
-A small Burp Suite extension that sends HTTP requests to Repeater with tab names in this format:
-
-```text
-{HTTP_VERB} {PATH}
-```
-
-Examples: `GET /api/users`, `POST /login`, and `DELETE /items/42`.
-
-Query strings are deliberately excluded so that tabs remain readable. The original request is not modified.
-
-## Build
-
-Requires Java 17 or newer.
-
-```shell
-./gradlew clean test jar
-```
-
-The loadable extension is written to `build/libs/repeater-tab-auto-namer.jar`.
+Burp Suite extension that auto-renames Repeater tabs to `{METHOD} {PATH}`
+<p align="center">
+    <img src="images/preview.png">
+</p>
 
 ## Install
 
-1. Open **Extensions > Installed** in Burp Suite.
-2. Click **Add**.
-3. Choose **Java** as the extension type.
-4. Select `build/libs/repeater-tab-auto-namer.jar`.
+1. Execute `./gradlew clean test jar` from project's root Requires Java 17 or newer.
+2. Open **Extensions > Installed** in Burp Suite.
+3. Click **Add**.
+4. Choose **Java** as the extension type.
+5. Select `build/libs/repeater-tab-auto-namer.jar`.
+
+> [info]
+> Remember to go to **Settings > User interface > Hotkeys** and remove the existing Ctrl+R assignment.
 
 ## Use
 
