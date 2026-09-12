@@ -12,7 +12,7 @@ Burp Suite extension that auto-renames Repeater tabs to `{METHOD} {PATH}`
 4. Choose **Java** as the extension type.
 5. Select `build/libs/repeater-tab-auto-namer.jar`.
 
-> [info]
+> [!IMPORTANT]
 > Remember to go to **Settings > User interface > Hotkeys** and remove the existing Ctrl+R assignment.
 
 ## Use
