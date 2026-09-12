@@ -2,8 +2,12 @@ plugins {
     id 'java'
 }
 
-group = 'dev.tabrename'
+group = 'io.github.sdushantha'
 version = '1.0.0'
+
+base {
+    archivesName = 'repeater-tab-auto-namer'
+}
 
 repositories {
     mavenCentral()
@@ -26,8 +30,4 @@ tasks.withType(JavaCompile).configureEach {
 
 test {
     useJUnitPlatform()
-}
-
-jar {
-    archiveFileName = 'repeater-tab-auto-namer.jar'
 }
