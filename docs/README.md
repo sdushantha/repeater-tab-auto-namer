@@ -1,7 +1,7 @@
 # Repeater Tab Auto-Namer
 Burp Suite extension that auto-renames Repeater tabs to `{METHOD} {PATH}`
 <p align="center">
-    <img src="images/preview.png">
+    <img src="images/before-after.png">
 </p>
 
 ## Install
